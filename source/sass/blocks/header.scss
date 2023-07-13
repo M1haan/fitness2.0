@@ -1,0 +1,158 @@
+.header {
+  background:  conic-gradient(from 150.87deg at 16.03% 39.06%, #b80027 -46.69deg, #003d85 32.24deg,  #b80027 313.31deg, #003d85 392.24deg);
+  font-family: $ff-primary;
+  font-weight: 600;
+  color: $color-default-white;
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: 377px 500px;
+  margin: 0 auto;
+  column-gap: 65px;
+  justify-content: center;
+  margin-bottom: 51px;
+
+  @media (max-width: $vp-1280) {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    padding: 0 45px;
+  }
+
+  @media (max-width: $vp-768) {
+    max-width: 600px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    gap: unset;
+    padding: 0 15px;
+  }
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 0 103px;
+  padding-top: 30px;
+
+  @media (max-width: $vp-768) {
+    max-width: 768px;
+    padding: 40px 45px;
+  }
+
+  @media (max-width: $vp-320) {
+    max-width: 320px;
+    padding: 20px 15px;
+  }
+}
+
+.header__logo {
+  color: $color-default-white;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.72px;
+  line-height: normal;
+
+  @media (max-width: $vp-768) {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+  }
+
+  @media (max-width: $vp-320) {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+}
+
+.header__phone {
+  color: $color-default-white;
+  font-size: 26px;
+  letter-spacing: 0.78px;
+}
+
+.header__link {
+  color: $color-default-white;
+}
+
+.header__badge {
+  font-size: 48px;
+  letter-spacing: 1.44px;
+  margin: 0;
+  margin-bottom: 25px;
+  line-height: normal;
+
+  @media (max-width: $vp-768) {
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: $vp-320) {
+    font-size: 28px;
+    letter-spacing: 0.84px;
+    margin-bottom: 20px;
+  }
+}
+
+.header__title {
+  font-size: 92px;
+  letter-spacing: 4.6px;
+  margin: 0;
+  margin-bottom: 80px;
+  line-height: normal;
+  max-width: 298px;
+  text-align: right;
+
+  @media (max-width: $vp-768) {
+    font-size: 72px;
+    margin-bottom: 60px;
+    letter-spacing: 3.6px;
+  }
+}
+
+.header__description {
+  font-family: $ff-secondary;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: right;
+  max-width: 113px;
+  margin: 0;
+  position: absolute;
+  top: 200px;
+  left: 30px;
+}
+
+.header__link {
+  color: $color-default-white;
+  font-family: $ff-secondary;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  line-height: normal;
+  text-transform: uppercase;
+
+  @media (max-width: $vp-768) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.header__image {
+  display: block;
+  transform: translateY(-30px);
+
+  @media (max-width: $vp-768) {
+    transform: translateY(0);
+    display: none;
+  }
+}
