@@ -1,0 +1,23 @@
+.button {
+  padding: 24px 57px;
+  display: inline-block;
+  outline: 4px solid $color-default-white;
+  outline-offset: -4px;
+  margin-bottom: 50px;
+  background-color: inherit;
+
+  &--primary {
+    &:hover {
+      background-color: $color-default-white;
+      color: $color-secondary;
+    }
+
+    &:active {
+      color: #102654;
+    }
+
+    &:disabled {
+      opacity: 0.6;
+    }
+  }
+}
