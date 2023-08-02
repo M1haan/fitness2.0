@@ -1,0 +1,166 @@
+.stock {
+  font-family: $ff-secondary;
+  color: #1c3374;
+}
+
+.stock__container {
+  padding: 135px 103px 120px;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  @include vp-1279 {
+    max-width: 768px;
+    padding: 182px 45px 100px;
+  }
+
+  @include vp-767 {
+    max-width: 320px;
+    padding: 144px 15px 70px;
+  }
+}
+
+.stock__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+
+  @include vp-1279 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.stock__title {
+  font-family: $ff-primary;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.62px;
+  text-align: center;
+  color: $color-primary;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.stock__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+
+  @include reset-list;
+
+  @include vp-1279 {
+    gap: 30px;
+    flex-direction: row;
+  }
+
+  @include vp-767 {
+    gap: 30px;
+    flex-direction: column;
+  }
+}
+
+.stock__item {
+  border: 7px solid;
+  border-image: linear-gradient(142.51deg, #d10a42 0%, #00359f 87.33%);
+  border-image-slice: 1;
+  padding: 17px 28px 27px;
+
+  width: 100%;
+}
+
+.stock__content {
+  display: flex;
+
+  @include vp-767 {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+
+.stock__info {
+  background-color: #ed0233;
+  max-width: 290px;
+  color: $color-default-white;
+  padding: 34px 45px 44px;
+
+  @include vp-1279 {
+    margin-bottom: 30px;
+  }
+
+  @include vp-767 {
+    margin-bottom: 0;
+  }
+}
+
+.stock__subtitle {
+  color: #1c3374;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 20px;
+
+  &--accent {
+    color: $color-default-white;
+  }
+}
+
+.stock__price {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 156%;
+  display: block;
+  margin: -22px 0 -2px;
+}
+
+.stock__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0;
+  margin-bottom: 64px;
+
+  &--accent {
+    margin-bottom: 186px;
+  }
+}
+
+.stock__link {
+  color: #1c3374;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    background-color: #1c3374;
+  }
+
+  &--accent {
+    color: $color-default-white;
+
+    &::after {
+      background-color: $color-default-white;
+    }
+  }
+}
+
+.stock__image {
+  height: 462px;
+
+  @include vp-1279 {
+    width: 400px;
+  }
+
+  @include vp-767 {
+    width: 290px;
+  }
+}

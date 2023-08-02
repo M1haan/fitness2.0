@@ -1,0 +1,150 @@
+[data-accordion="element"].is-active > [data-accordion="content"] {
+  max-height: 100%;
+}
+
+[data-accordion="parent"].no-transition [data-accordion="content"] {
+  transition: none;
+}
+
+[data-accordion="content"] {
+  max-height: 0;
+  transition: max-height 0.3s;
+  overflow: hidden;
+}
+
+.accordion {
+  @include vp-1279 {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.accordion__element {
+  border-top: 1px solid rgba(16, 38, 84, 0.5);
+  padding: 27px 0 23px;
+
+  @include vp-1279 {
+    padding: 25px 0 26px;
+  }
+
+  @include vp-767 {
+    padding: 21px 0 19px;
+  }
+
+  &:last-child {
+    border-bottom: 1px solid rgba(16, 38, 84, 0.5);
+  }
+}
+
+.accordion__element.is-active {
+  .accordion__button {
+    margin-bottom: 9px;
+
+    @include vp-767 {
+      margin-bottom: 11px;
+    }
+  }
+
+  .accordion__icon-wrapper {
+    background-color: #1c3374;
+    color: $color-default-white;
+  }
+
+  svg:first-of-type {
+    display: none;
+  }
+
+  svg:last-of-type {
+    display: block;
+  }
+}
+
+.accordion__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  color: #102654;
+  font-family: $ff-secondary;
+  font-size: 24px;
+  line-height: 1.2em;
+  letter-spacing: 0;
+  font-weight: 500;
+
+  p {
+    margin: 0;
+    text-align: start;
+    line-height: 1.2em;
+
+    @include vp-767 {
+      font-size: 18px;
+      padding-right: 40px;
+    }
+  }
+
+  svg:last-of-type {
+    display: none;
+  }
+
+  &:disabled .accordion__icon-wrapper {
+    opacity: 0.3;
+  }
+}
+
+.accordion__icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  color: #1c3374;
+  border: 1px solid #1c3374;
+  margin-top: -2px;
+
+  @include vp-767 {
+    margin-top: -3px;
+    min-width: 32px;
+    width: 32px;
+    max-width: 32px;
+    height: 32px;
+  }
+
+  svg {
+    @include vp-767 {
+      width: 12px;
+
+      &:first-of-type {
+        height: 12px;
+      }
+    }
+  }
+
+  @include hover-focus {
+    background-color: $color-primary;
+    color: $color-default-white;
+  }
+}
+
+.accordion__content {
+  p {
+    margin: 0;
+    padding-right: 456px;
+    font-size: 18px;
+    line-height: 1.4em;
+    font-weight: 300;
+    font-family: $ff-secondary;
+
+    @include vp-1279 {
+      padding-right: 140px;
+    }
+
+    @include vp-767 {
+      font-size: 16px;
+      padding-right: 20px;
+    }
+  }
+}

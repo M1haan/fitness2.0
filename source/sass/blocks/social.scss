@@ -1,0 +1,43 @@
+.social {
+  padding: 0;
+  display: flex;
+  gap: 11px;
+  max-width: 134px;
+  flex-wrap: wrap;
+}
+
+.social__item {
+  list-style-type: none;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: $color-default-white;
+
+  svg {
+    color: #030a1a;
+  }
+}
+
+.social__link:hover,
+.social__link:focus-within {
+  background-color: $color-secondary;
+
+  svg {
+    color: $color-default-white;
+  }
+}
+
+.social__link:active {
+  background-color: $color-primary;
+
+  svg {
+    color: $color-default-white;
+  }
+}
+

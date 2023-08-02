@@ -7,7 +7,8 @@ $color-default-black:               #000000;
 $color-default-white:               #ffffff;
 $color-transparent:                 rgba(255, 255, 255, 0);
 $color-primary:                     #102654;
-$color-secondary:                   #103AAE;
+$color-secondary:                   #103aae;
+$color-background-secondary:        #f8f9fc;
 
 // Project palette
 // для нейминга цветов используем https://www.htmlcsscolor.com/hex/334482
@@ -18,6 +19,7 @@ $color-torch-red:                   #ff1553;
 // Gradient
 
 $black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
+$play-button-gradient:              linear-gradient(100deg, #ed0233 0%, #003eb7 100%);
 
 // Typography
 // ---------------------------------
@@ -31,9 +33,9 @@ $ff-rouble:                         "Rouble", "Arial", sans-serif;
 
 $ff-placeholder:                    "Placeholder", "Arial", sans-serif;
 
-$ff-primary:                        "Alumni Sans", sans-serif;
+$ff-primary:                        "Alumni Sans", "Arial", sans-serif;
 
-$ff-secondary:                      "Roboto Condensed", sans-serif;
+$ff-secondary:                      "Roboto Condensed", "Arial", sans-serif;
 
 // Animation
 // ---------------------------------

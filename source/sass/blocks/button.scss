@@ -1,12 +1,12 @@
 .button {
-  padding: 24px 57px;
+  padding: 24px;
   display: inline-block;
-  outline: 4px solid $color-default-white;
-  outline-offset: -4px;
-  margin-bottom: 50px;
+  cursor: pointer;
   background-color: inherit;
 
   &--primary {
+    border: 2px solid $color-default-white;
+
     &:hover {
       background-color: $color-default-white;
       color: $color-secondary;
@@ -19,5 +19,14 @@
     &:disabled {
       opacity: 0.6;
     }
+  }
+
+  &--secondary {
+    border: 2px solid $color-primary;
+  }
+
+  &--current {
+    background: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%);
+    color: $color-default-white;
   }
 }
