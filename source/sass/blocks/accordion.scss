@@ -13,7 +13,7 @@
 }
 
 .accordion {
-  @include vp-1279 {
+  @include vp-1199 {
     max-width: 800px;
     margin: 0 auto;
   }
@@ -23,7 +23,7 @@
   border-top: 1px solid rgba(16, 38, 84, 0.5);
   padding: 27px 0 23px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     padding: 25px 0 26px;
   }
 
@@ -138,7 +138,7 @@
     font-weight: 300;
     font-family: $ff-secondary;
 
-    @include vp-1279 {
+    @include vp-1199 {
       padding-right: 140px;
     }
 

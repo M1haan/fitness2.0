@@ -6,7 +6,7 @@
     grid-template-columns: 260px 1fr;
     gap: 40px;
 
-    @include vp-1279 {
+    @include vp-1199 {
       grid-template-columns: 1fr;
       gap: 39px;
     }
@@ -29,7 +29,7 @@
     gap: 10px;
     height: fit-content;
 
-    @include vp-1279 {
+    @include vp-1199 {
       flex-direction: row;
       max-width: 800px;
       margin: 0 auto;
@@ -54,7 +54,7 @@
     font-weight: 500;
 
 
-    @include vp-1279 {
+    @include vp-1199 {
       max-width: 162px;
       padding: 20px 34px;
     }
@@ -90,7 +90,7 @@
   padding-top: 126px;
   padding-bottom: 122px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     padding-top: 105px;
     padding-bottom: 98px;
   }
@@ -112,7 +112,7 @@
   line-height: normal;
   letter-spacing: 1.62px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     text-align: center;
   }
 

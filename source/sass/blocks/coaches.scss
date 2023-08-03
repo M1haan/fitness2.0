@@ -1,7 +1,20 @@
 .coaches {
-  padding-top: 120px;
-  padding-bottom: 105px;
   font-family: $ff-primary;
+}
+
+.coaches__container {
+  padding-top: 112px;
+  padding-bottom: 105px;
+
+  @include vp-1199 {
+    padding-top: 105px;
+    padding-bottom: 101px;
+  }
+
+  @include vp-767 {
+    padding-top: 67px;
+    padding-bottom: 70px;
+  }
 }
 
 .coaches__title {
@@ -12,4 +25,99 @@
   letter-spacing: 1.62px;
   margin: 0;
   margin-bottom: 48px;
+
+  @include vp-1199 {
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  @include vp-767 {
+    margin-bottom: 45px;
+  }
+}
+
+.coaches__slider {
+  position: relative;
+  display: flex;
+  padding: 0 60px;
+
+  @include vp-1199 {
+    width: 678px;
+    margin: 0 auto;
+    padding: 0 56px;
+  }
+
+  @include vp-767 {
+    width: 290px;
+    padding: 0 32px;
+  }
+}
+
+.coaches__button {
+  border: none;
+  background-color: inherit;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  color: $color-primary;
+  cursor: pointer;
+
+  @include vp-767 {
+    width: 30px;
+    height: 30px;
+  }
+
+  &--prev {
+    position: absolute;
+    z-index: 2;
+    left: -18px;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    @include vp-1199 {
+      left: -3%;
+    }
+  }
+
+  &--next {
+    position: absolute;
+    z-index: 2;
+    right: -18px;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    @include vp-1199 {
+      right: -3%;
+    }
+  }
+
+  @include hover-focus {
+    border: 2px solid $color-primary;
+  }
+
+  &:active {
+    background-color: $color-primary;
+    color: $color-default-white;
+  }
+
+  &:disabled {
+    opacity: 0.3;
+  }
+}
+
+.coaches__icon {
+  @include vp-767 {
+    width: 10px;
+    height: 19px;
+  }
+}
+
+.coaches__slide {
+  position: relative;
+}
+
+.swiper-coaches__wrapper {
+  display: flex;
+
+  @include reset-list;
 }

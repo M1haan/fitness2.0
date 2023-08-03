@@ -4,7 +4,7 @@
   padding-top: 120px;
   padding-bottom: 120px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -18,11 +18,11 @@
 .about__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 85px;
-  padding-left: 123px;
-  padding-right: 63px;
+  column-gap: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     padding-left: 45px;
     padding-right: 45px;
     display: flex;
@@ -43,9 +43,9 @@
   line-height: normal;
   letter-spacing: 1.44px;
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     margin-bottom: 0;
     font-size: 42px;
     letter-spacing: 1.26px;
@@ -58,9 +58,10 @@
 }
 
 .about__content {
-  width: 355px;
+  width: 390px;
+  padding: 40px 0 0 40px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     width: 100%;
     text-align: center;
     padding-left: 88px;
@@ -79,9 +80,9 @@
   font-weight: 400;
   line-height: 150%;
   margin: 0;
-  margin-bottom: 55px;
+  margin-bottom: 45px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
@@ -96,7 +97,7 @@
   line-height: 150%;
   margin: 0;
 
-  @include vp-1279 {
+  @include vp-1199 {
     &:last-child {
       display: none;
     }
@@ -114,9 +115,9 @@
   width: 364px;
   height: 228px;
   background-color: $color-default-black;
-  margin: -113px 0 0 -63px;
+  margin: -128px 0 0 -63px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     margin: -130px auto 0 auto;
     width: 266px;
     height: 167px;
@@ -135,7 +136,7 @@
   left: 0;
   bottom: 0;
 
-  @include vp-1279 {
+  @include vp-1199 {
     width: 266px;
     height: 167px;
   }
@@ -170,7 +171,7 @@
   transition: all 0.3s ease;
   z-index: 1;
 
-  @include vp-1279 {
+  @include vp-1199 {
     width: 73px;
     height: 73px;
     top: calc(50% - 34px);

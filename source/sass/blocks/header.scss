@@ -8,7 +8,7 @@
 .header__container {
   padding: 30px 103px 51px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     padding: 35px 45px 80px;
   }
 
@@ -30,7 +30,7 @@
   line-height: normal;
   text-transform: uppercase;
 
-  @include vp-1279 {
+  @include vp-1199 {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.48px;
@@ -73,7 +73,7 @@
   display: flex;
   justify-content: center;
 
-  @include vp-1279 {
+  @include vp-1199 {
     margin-top: 18px;
     justify-content: space-evenly;
   }
@@ -88,7 +88,7 @@
   margin-left: 19px;
   margin-right: 63px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     margin-left: 0;
     margin-right: 35px;
   }
@@ -105,7 +105,7 @@
   text-align: end;
   margin-top: 117px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     margin-top: 54px;
   }
 
@@ -126,7 +126,7 @@
   line-height: normal;
 
 
-  @include vp-1279 {
+  @include vp-1199 {
     margin-top: 6px;
     margin-left: -2px;
     font-size: 72px;
@@ -148,7 +148,7 @@
   font-weight: 600;
   text-transform: uppercase;
 
-  @include vp-1279 {
+  @include vp-1199 {
     padding-right: 8px;
     font-size: 31px;
     line-height: 37px;
@@ -176,7 +176,7 @@
   text-align: center;
   color: $color-default-white;
 
-  @include vp-1279 {
+  @include vp-1199 {
     margin-top: 37px;
     margin-left: 0;
     padding: 19px 31px 20px;
@@ -206,7 +206,7 @@
 }
 
 .header__image {
-  @include vp-1279 {
+  @include vp-1199 {
     width: 324px;
     height: 390px;
   }

@@ -8,7 +8,7 @@
   max-width: 1280px;
   margin: 0 auto;
 
-  @include vp-1279 {
+  @include vp-1199 {
     max-width: 768px;
     padding: 182px 45px 100px;
   }
@@ -24,7 +24,7 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 40px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     display: flex;
     flex-direction: column;
   }
@@ -49,7 +49,7 @@
 
   @include reset-list;
 
-  @include vp-1279 {
+  @include vp-1199 {
     gap: 30px;
     flex-direction: row;
   }
@@ -84,7 +84,7 @@
   color: $color-default-white;
   padding: 34px 45px 44px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     margin-bottom: 30px;
   }
 
@@ -156,7 +156,7 @@
 .stock__image {
   height: 462px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     width: 400px;
   }
 

@@ -9,7 +9,7 @@ function initCoachesSwiper() {
 
     direction: 'horizontal',
     loop: true,
-    initialSlide: 1,
+    initialSlide: 0,
     slidesPerView: 4,
     spaceBetween: 40,
     speed: 1000,
@@ -22,7 +22,7 @@ function initCoachesSwiper() {
         slidesPerView: 2,
         spaceBetween: 30,
       },
-      1280: {
+      1200: {
         slidesPerView: 4,
         spaceBetween: 40,
       },

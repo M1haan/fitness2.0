@@ -745,7 +745,7 @@ button,
 .header__container {
   padding: 30px 103px 51px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .header__container {
     padding: 35px 45px 80px;
   }
@@ -773,7 +773,7 @@ button,
   line-height: normal;
   text-transform: uppercase;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .header__logo {
     font-size: 24px;
     font-weight: 700;
@@ -823,7 +823,7 @@ button,
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .header__content {
     margin-top: 18px;
     -webkit-box-pack: space-evenly;
@@ -844,7 +844,7 @@ button,
   margin-left: 19px;
   margin-right: 63px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .header__text-wrapper {
     margin-left: 0;
     margin-right: 35px;
@@ -868,7 +868,7 @@ button,
   text-align: end;
   margin-top: 117px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .header__info {
     margin-top: 54px;
   }
@@ -892,7 +892,7 @@ button,
   text-transform: uppercase;
   line-height: normal;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .header__title {
     margin-top: 6px;
     margin-left: -2px;
@@ -917,7 +917,7 @@ button,
   font-weight: 600;
   text-transform: uppercase;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .header__badge {
     padding-right: 8px;
     font-size: 31px;
@@ -949,7 +949,7 @@ button,
   text-align: center;
   color: #ffffff;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .header__link {
     margin-top: 37px;
     margin-left: 0;
@@ -980,7 +980,7 @@ button,
   opacity: 0.5;
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .header__image {
     width: 324px;
     height: 390px;
@@ -1037,7 +1037,7 @@ button,
   padding-bottom: 40px;
   padding-right: 41px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .footer__container {
     padding-top: 45px;
     padding-bottom: 40px;
@@ -1068,7 +1068,7 @@ button,
   text-transform: uppercase;
   cursor: pointer;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .footer__logo {
     font-size: 24px;
     font-weight: 700;
@@ -1119,7 +1119,7 @@ button,
   margin: 0;
   padding: 0;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .footer__list {
     -webkit-column-gap: 30px;
        -moz-column-gap: 30px;
@@ -1237,7 +1237,7 @@ button,
   padding-top: 120px;
   padding-bottom: 120px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .about {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1255,13 +1255,13 @@ button,
   display: grid;
   -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
-  -webkit-column-gap: 85px;
-     -moz-column-gap: 85px;
-          column-gap: 85px;
-  padding-left: 123px;
-  padding-right: 63px;
+  -webkit-column-gap: 70px;
+     -moz-column-gap: 70px;
+          column-gap: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .about__container {
     padding-left: 45px;
     padding-right: 45px;
@@ -1289,9 +1289,9 @@ button,
   line-height: normal;
   letter-spacing: 1.44px;
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .about__title {
     margin-bottom: 0;
     font-size: 42px;
@@ -1306,9 +1306,10 @@ button,
 }
 
 .about__content {
-  width: 355px;
+  width: 390px;
+  padding: 40px 0 0 40px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .about__content {
     width: 100%;
     text-align: center;
@@ -1329,9 +1330,9 @@ button,
   font-weight: 400;
   line-height: 150%;
   margin: 0;
-  margin-bottom: 55px;
+  margin-bottom: 45px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .about__badge {
     font-size: 18px;
     font-weight: 400;
@@ -1347,7 +1348,7 @@ button,
   line-height: 150%;
   margin: 0;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .about__description:last-child {
     display: none;
   }
@@ -1366,9 +1367,9 @@ button,
   width: 364px;
   height: 228px;
   background-color: #000000;
-  margin: -113px 0 0 -63px;
+  margin: -128px 0 0 -63px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .about__video-container {
     margin: -130px auto 0 auto;
     width: 266px;
@@ -1389,7 +1390,7 @@ button,
   left: 0;
   bottom: 0;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .about__poster {
     width: 266px;
     height: 167px;
@@ -1430,7 +1431,7 @@ button,
     scale: 0.8;
   } */
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .about__button {
     width: 73px;
     height: 73px;
@@ -1482,7 +1483,7 @@ button,
   padding: 68px 77px;
   border: 7px solid transparent;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .season-ticket {
     max-width: 442px;
     padding: 55px 110px;
@@ -1521,7 +1522,7 @@ button,
   padding-bottom: 79px;
   background-color: #f8f9fc;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .season-tickets {
     padding-top: 100px;
     padding-bottom: 59px;
@@ -1545,7 +1546,7 @@ button,
   margin-bottom: 17px;
   color: #102654;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .season-tickets__title {
     margin-bottom: 21px;
     font-size: 42px;
@@ -1567,7 +1568,7 @@ button,
   font-size: 26px;
   line-height: 40px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .season-ticket__subtitle {
     line-height: 29px;
     margin-bottom: 10px;
@@ -1675,7 +1676,7 @@ button,
   width: -moz-fit-content;
   width: fit-content;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .season-tickets__controls {
     -webkit-column-gap: 55px;
        -moz-column-gap: 55px;
@@ -1701,7 +1702,7 @@ button,
   background-color: #787878;
   opacity: 0.2;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .season-tickets__controls::after {
     top: 38px;
   }
@@ -1717,7 +1718,7 @@ button,
   bottom: -150px;
   right: 0;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .season-tickets__picture {
     bottom: -125px;
     right: 0;
@@ -1728,7 +1729,7 @@ button,
     display: none;
   }
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .season-tickets__picture img {
     width: 347px;
     height: 444px;
@@ -1752,7 +1753,7 @@ button,
   padding: 0 0 11px 0;
   background-color: transparent;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .season-tickets__tab {
     font-size: 18px;
     line-height: 27px;
@@ -1832,7 +1833,7 @@ button,
       -ms-flex-align: center;
           align-items: center;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .tabs__element {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1906,7 +1907,7 @@ button,
           justify-content: center;
   padding: 120px 103px 106px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .promo {
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
@@ -1937,7 +1938,7 @@ button,
      -moz-column-gap: 50px;
           column-gap: 50px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .promo__container {
     -webkit-column-gap: 29px;
        -moz-column-gap: 29px;
@@ -1945,7 +1946,7 @@ button,
     padding: 51px 45px;
   }
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .promo__container {
     padding: 50px 37px;
   }
@@ -1961,7 +1962,7 @@ button,
   margin: 0;
   margin-bottom: 35px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .promo__title {
     font-size: 48px;
     letter-spacing: 1.44px;
@@ -1977,7 +1978,7 @@ button,
   margin-bottom: 55px;
   grid-column: 1/-1;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .promo__description {
     font-size: 12px;
     margin-bottom: 20px;
@@ -1996,7 +1997,7 @@ button,
   grid-column: 1/-1;
   padding: 16px 52px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .promo__link {
     font-size: 10px;
     letter-spacing: 0.5px;
@@ -2025,7 +2026,7 @@ button,
   font-weight: 400;
   line-height: 150%;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .promo__date {
     padding-top: 2px;
     font-size: 12px;
@@ -2045,7 +2046,7 @@ button,
   font-weight: 700;
   font-size: 40px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .promo__value {
     margin: -2px 0 -1px;
     font-size: 24px;
@@ -2061,7 +2062,7 @@ button,
   height: 1px;
   background-color: #ffffff;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .promo__value::before {
     top: -5px;
     width: 98%;
@@ -2078,7 +2079,7 @@ button,
   font-size: 13px;
   line-height: 150%;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .promo__additions {
     margin: 1px 0 0 4px;
     font-size: 10px;
@@ -2090,9 +2091,9 @@ button,
   display: block;
   width: 660px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .promo__image {
-    width: 386px;
+    width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -2102,26 +2103,14 @@ button,
 }
 
 .coaches {
-  padding-top: 120px;
-  padding-bottom: 105px;
   font-family: "Alumni Sans", "Arial", sans-serif;
-}
-
-.coaches__title {
-  color: #102654;
-  font-size: 54px;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 1.62px;
-  margin: 0;
-  margin-bottom: 48px;
 }
 
 .coaches__container {
   padding-top: 112px;
   padding-bottom: 105px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .coaches__container {
     padding-top: 105px;
     padding-bottom: 101px;
@@ -2135,9 +2124,15 @@ button,
 }
 
 .coaches__title {
-  margin: 0 0 53px 2px;
+  color: #102654;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.62px;
+  margin: 0;
+  margin-bottom: 48px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .coaches__title {
     margin-bottom: 35px;
     text-align: center;
@@ -2156,24 +2151,18 @@ button,
   display: flex;
   padding: 0 60px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .coaches__slider {
+    width: 678px;
+    margin: 0 auto;
     padding: 0 56px;
   }
 }
 @media (max-width: 767px) {
   .coaches__slider {
+    width: 290px;
     padding: 0 32px;
   }
-}
-
-.swiper-coaches__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .coaches__button {
@@ -2200,7 +2189,7 @@ button,
       -ms-transform: translate(0, -50%);
           transform: translate(0, -50%);
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .coaches__button--prev {
     left: -3%;
   }
@@ -2214,7 +2203,7 @@ button,
       -ms-transform: translate(0, -50%);
           transform: translate(0, -50%);
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .coaches__button--next {
     right: -3%;
   }
@@ -2246,16 +2235,25 @@ button,
   position: relative;
 }
 
+.swiper-coaches__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .coach-card:hover .coach-card__image-mask {
   opacity: 0.89;
   width: 100%;
 }
-.coach-card:hover .coach-card__text-wrapper {
+.coach-card:hover .coach-card__content {
   padding-top: 52px;
   top: 0;
 }
 @media (max-width: 767px) {
-  .coach-card:hover .coach-card__text-wrapper {
+  .coach-card:hover .coach-card__content {
     padding-top: 42px;
   }
 }
@@ -2267,19 +2265,19 @@ button,
   display: block;
 }
 
-.coach-card__image-wrapper {
+.coach-card__image {
   position: relative;
 }
-.coach-card__image-wrapper img {
+.coach-card__image img {
   width: 100%;
 }
-@media (max-width: 1279px) {
-  .coach-card__image-wrapper img {
+@media (max-width: 1199px) {
+  .coach-card__image img {
     aspect-ratio: 268/294;
   }
 }
 @media (max-width: 767px) {
-  .coach-card__image-wrapper img {
+  .coach-card__image img {
     aspect-ratio: 228/276;
   }
 }
@@ -2296,7 +2294,7 @@ button,
   transition: 0.3s ease;
 }
 
-.coach-card__text-wrapper {
+.coach-card__content {
   position: absolute;
   width: 100%;
   text-align: center;
@@ -2323,7 +2321,7 @@ button,
   transition: 3s ease;
 }
 
-.coach-card__discipline {
+.coach-card__badge {
   margin: 0;
   margin-bottom: 33px;
 }
@@ -2359,7 +2357,7 @@ button,
   padding-bottom: 130px;
   margin: 0 auto;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .advantages__container {
     width: 768px;
     margin: 0 auto;
@@ -2400,7 +2398,7 @@ button,
   padding: 0;
   list-style: none;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .advantages__list {
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
@@ -2438,7 +2436,7 @@ button,
   right: 0;
   border-bottom: 2px solid rgba(209, 10, 66, 0.2);
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .advantages__item--square::after, .advantages__item--parking::after {
     border: none;
   }
@@ -2522,7 +2520,7 @@ button,
   -ms-grid-column-span: 1;
   grid-column: 2/3;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .advantages__item-banner {
     width: 442px;
     -ms-grid-row: 2;
@@ -2581,7 +2579,7 @@ button,
   max-width: 1280px;
   margin: 0 auto;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .stock__container {
     max-width: 768px;
     padding: 182px 45px 100px;
@@ -2603,7 +2601,7 @@ button,
      -moz-column-gap: 40px;
           column-gap: 40px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .stock__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2640,7 +2638,7 @@ button,
   padding: 0;
   list-style: none;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .stock__list {
     gap: 30px;
     -webkit-box-orient: horizontal;
@@ -2689,7 +2687,7 @@ button,
   color: #ffffff;
   padding: 34px 45px 44px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .stock__info {
     margin-bottom: 30px;
   }
@@ -2758,7 +2756,7 @@ button,
 .stock__image {
   height: 462px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .stock__image {
     width: 400px;
   }
@@ -2779,7 +2777,7 @@ button,
   grid-template-columns: 260px 1fr;
   gap: 40px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .faq .tabs {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -2812,7 +2810,7 @@ button,
   height: -moz-fit-content;
   height: fit-content;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .faq .tabs__controls {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2844,7 +2842,7 @@ button,
   color: #102654;
   font-weight: 500;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .faq .tabs__control {
     max-width: 162px;
     padding: 20px 34px;
@@ -2877,7 +2875,7 @@ button,
   padding-top: 126px;
   padding-bottom: 122px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .faq__container {
     padding-top: 105px;
     padding-bottom: 98px;
@@ -2901,7 +2899,7 @@ button,
   line-height: normal;
   letter-spacing: 1.62px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .faq__title {
     text-align: center;
   }
@@ -2916,7 +2914,7 @@ button,
   padding-top: 100px;
   padding-bottom: 100px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .reviews__container {
     padding: 100px 45px;
   }
@@ -2938,7 +2936,7 @@ button,
   margin-bottom: 43px;
   text-align: center;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .reviews__title {
     font-size: 42px;
     letter-spacing: 1.26px;
@@ -2984,7 +2982,7 @@ button,
       -ms-transform: translate(0, -50%);
           transform: translate(0, -50%);
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .reviews__button--prev {
     left: -3%;
   }
@@ -2998,7 +2996,7 @@ button,
       -ms-transform: translate(0, -50%);
           transform: translate(0, -50%);
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .reviews__button--next {
     right: -3%;
   }
@@ -3102,7 +3100,7 @@ button,
   -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .contacts {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3122,7 +3120,7 @@ button,
   width: 100%;
   padding-left: 120px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .contacts__info {
     padding: 70px 133px;
   }
@@ -3142,7 +3140,7 @@ button,
   margin: 0;
   margin-bottom: 43px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .contacts__title {
     font-size: 42px;
     letter-spacing: 1.26px;
@@ -3189,7 +3187,7 @@ button,
   content: "";
   border-right: 1px solid #74819c;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .contacts__list::after {
     top: 9px;
     bottom: 8px;
@@ -3209,7 +3207,7 @@ button,
   margin: 0;
   margin-bottom: 15px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .contacts__subtitle {
     font-size: 20px;
     margin-bottom: 20px;
@@ -3222,7 +3220,7 @@ button,
   line-height: 152.34%;
   margin: 0;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .contacts__value {
     font-size: 18px;
     line-height: 152.34%;
@@ -3235,7 +3233,7 @@ button,
   background-color: #102654;
   padding: 56px 170px 70px 103px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .form {
     padding: 70px 163px;
   }
@@ -3256,7 +3254,7 @@ button,
   margin: 0;
   margin-bottom: 24px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .form h2 {
     font-size: 42px;
     font-weight: 700;
@@ -3353,7 +3351,7 @@ button,
   overflow: hidden;
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .accordion {
     max-width: 800px;
     margin: 0 auto;
@@ -3364,7 +3362,7 @@ button,
   border-top: 1px solid rgba(16, 38, 84, 0.5);
   padding: 27px 0 23px;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .accordion__element {
     padding: 25px 0 26px;
   }
@@ -3489,7 +3487,7 @@ button,
   font-weight: 300;
   font-family: "Roboto Condensed", "Arial", sans-serif;
 }
-@media (max-width: 1279px) {
+@media (max-width: 1199px) {
   .accordion__content p {
     padding-right: 140px;
   }

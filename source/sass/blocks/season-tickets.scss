@@ -7,7 +7,7 @@
   padding: 68px 77px;
   border: 7px solid transparent;
 
-  @include vp-1279 {
+  @include vp-1199 {
     max-width: 442px;
     padding: 55px 110px;
     min-height: 448px;
@@ -37,7 +37,7 @@
   padding-bottom: 79px;
   background-color: #f8f9fc;
 
-  @include vp-1279 {
+  @include vp-1199 {
     padding-top: 100px;
     padding-bottom: 59px;
   }
@@ -59,7 +59,7 @@
   margin-bottom: 17px;
   color: $color-primary;
 
-  @include vp-1279 {
+  @include vp-1199 {
     margin-bottom: 21px;
     font-size: 42px;
     line-height: 50px;
@@ -79,7 +79,7 @@
   font-size: 26px;
   line-height: 40px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     line-height: 29px;
     margin-bottom: 10px;
   }
@@ -173,7 +173,7 @@
   margin: 0 auto 38px;
   width: fit-content;
 
-  @include vp-1279 {
+  @include vp-1199 {
     column-gap: 55px;
     margin: 0 auto 44px;
   }
@@ -193,7 +193,7 @@
     background-color: #787878;
     opacity: 0.2;
 
-    @include vp-1279 {
+    @include vp-1199 {
       top: 38px;
     }
 
@@ -208,7 +208,7 @@
   bottom: -150px;
   right: 0;
 
-  @include vp-1279 {
+  @include vp-1199 {
     bottom: -125px;
     right: 0;
   }
@@ -218,7 +218,7 @@
   }
 
   img {
-    @include vp-1279 {
+    @include vp-1199 {
       width: 347px;
       height: 444px;
     }
@@ -240,7 +240,7 @@
   padding: 0 0 11px 0;
   background-color: transparent;
 
-  @include vp-1279 {
+  @include vp-1199 {
     font-size: 18px;
     line-height: 27px;
   }

@@ -4,7 +4,7 @@
   background-color: $color-primary;
   padding: 56px 170px 70px 103px;
 
-  @include vp-1279 {
+  @include vp-1199 {
     padding: 70px 163px;
   }
 
@@ -23,7 +23,7 @@
     margin: 0;
     margin-bottom: 24px;
 
-    @include vp-1279 {
+    @include vp-1199 {
       font-size: 42px;
       font-weight: 700;
       line-height: normal;
