@@ -40,8 +40,8 @@
             </div>
             <div class="header__image">
               <picture>
-                <source type="image/webp" media="(max-width:1280px)" srcset="img/header-tablet.webp 1x, img/header-tablet@2x.webp 2x">
-                <source type="image/webp" media="(min-width: 768px)" srcset="img/header-desktop.webp 1x, img/header-desktop@2x.webp 2x">
+                <source type="image/webp" media="(max-width:1200px)" srcset="img/header-desktop.webp 1x, img/header-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/header-tablet.webp 1x, img/header-tablet@2x.webp 2x">
                 <img class="header__image" src="img/header-desktop.webp" width="500" height="556" srcset="img/header-desktop@2x.webp 2x" alt="мужчина спортивного телосложения.">
               </picture>
             </div>
@@ -58,18 +58,20 @@
               <p class="about__description">Supergym – самый большой фитнес центр за Уралом и идеальное место для укрепления тела и здоровья. Тренажерный зал оснащен всем необходимым современным оборудованием для всех спортсменов.</p>
               <p class="about__description">В зале расположены отдельная зона для Crossfit и кардио-зона с 40 тренажерами. Также в фитнес центре есть несколько оборудованных залов для различных видов групповых занятий.</p>
             </div>
-            <picture>
-              <source media="(min-width: 1280px)"
-                type="image/webp" srcset="img/gym-desktop.webp 1x, img/gym-desktop@2x.webp 2x">
-              <source media="(min-width: 768px)"
-                type="image/webp" srcset="img/gym-tablet.webp 1x, img/gym-tablet@2x.webp 2x">
-              <source type="image/webp" srcset="img/gym-mobile.webp 1x, img/gym-mobile@2x.webp 2x">
-              <img class="about__image" src="img/gym-desktop.webp" width="660" height="401" srcset="img/gym-desktop@2x.webp" alt="тренажерный зал.">
-            </picture>
+            <div class="about__image">
+              <picture>
+                <source media="(min-width: 1200px)"
+                  type="image/webp" srcset="img/gym-desktop.webp 1x, img/gym-desktop@2x.webp 2x">
+                <source media="(min-width: 768px)"
+                  type="image/webp" srcset="img/gym-tablet.webp 1x, img/gym-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/gym-mobile.webp 1x, img/gym-mobile@2x.webp 2x">
+                <img src="img/gym-desktop.webp" width="660" height="401" srcset="img/gym-desktop@2x.webp" alt="тренажерный зал.">
+              </picture>
+            </div>
             <div class="about__video-container">
               <picture>
                 <source type="image/webp" media="(max-width:767px)" srcset="img/video-poster-mobile.webp 1x, img/video-poster-mobile@2x.webp 2x">
-                <source type="image/webp" media="(max-width:1280px)" srcset="img/video-poster-tablet.webp 1x, img/video-poster-tablet@2x.webp 2x">
+                <source type="image/webp" media="(max-width:1200px)" srcset="img/video-poster-tablet.webp 1x, img/video-poster-tablet@2x.webp 2x">
                 <source type="image/webp" srcset="img/video-poster-desktop.webp 1x, img/video-poster-desktop@2x.webp 2x">
                 <img class="about__poster" src="img/video-poster-desktop.webp" width="364" height="228" alt="постер." srcset="img/video-desktop@2x.webp 2x">
               </picture>
@@ -86,7 +88,7 @@
           <div class="season-tickets__wrapper container">
             <div class="season-tickets__picture">
               <picture>
-                <source media="(min-width: 1280px)"
+                <source media="(min-width: 1200px)"
                   type="image/webp" srcset="img/seacon-tickets-desktop.webp 1x, img/seacon-tickets-desktop@2x.webp 2x">
                 <source media="(min-width: 768px)"
                   type="image/webp" srcset="img/seacon-tickets-tablet.webp 1x, img/seacon-tickets-tablet@2x.webp 2x">
@@ -196,7 +198,7 @@
 
 
         <section class="promo">
-          <div class="promo__container containe">
+          <div class="promo__container container">
             <h2 class="promo__title">SUPER GAMES</h2>
             <dl class="promo__list">
               <dt class="promo__date">Дата</dt>
@@ -213,7 +215,7 @@
           </div>
           <div class="promo__image">
             <picture>
-              <source type="image/webp" media="(max-width:1280px)" srcset="img/promo-tablet.webp 1x, img/promo-tablet@2x.webp 2x">
+              <source type="image/webp" media="(max-width:1200px)" srcset="img/promo-tablet.webp 1x, img/promo-tablet@2x.webp 2x">
               <source type="image/webp" media="(max-width:767px)" srcset="img/promo-mobile.webp 1x, img/promo-mobile@2x.webp 2x">
               <source type="image/webp" srcset="img/promo-desktop.webp 1x, img/promo-desktop@2x.webp 2x">
               <img src="img/promo-desktop.png" width="660" height="500" alt="Фото спортсмена." srcset="img/promo-desktop@2x.webp 2x" loading="lazy">
@@ -234,7 +236,7 @@
               <div class="coaches__swiper swiper swiper-coaches">
                 <ul class="swiper-wrapper swiper-coaches__wrapper">
                   <li class="swiper-slide coaches__slide coach-card" tabindex="0" data-slide-swiper-coaches>
-                    <div class="coach-card__image-wrapper">
+                    <div class="coach-card__image">
                       <picture>
                         <source media="(min-width: 1200px)"
                           type="image/webp" srcset="img/coach-1-desktop.webp 1x, img/coach-1-desktop@2x.webp 2x">
@@ -247,10 +249,10 @@
                       </picture>
                       <span class="coach-card__image-mask"></span>
                     </div>
-                    <div class="coach-card__text-wrapper">
+                    <div class="coach-card__content">
                       <p class="coach-card__name">Анна Павлова</p>
                       <div class="coach-card__info">
-                        <p class="coach-card__discipline">CrossFit</p>
+                        <p class="coach-card__badge">CrossFit</p>
                         <ul class="coach-card__achievements-list">
                           <li class="coach-card__achievement-item">
                             Certified Level 3 Trainer
@@ -266,7 +268,7 @@
                     </div>
                   </li>
                   <li class="swiper-slide coaches__slide coach-card" tabindex="0" data-slide-swiper-coaches>
-                    <div class="coach-card__image-wrapper">
+                    <div class="coach-card__image">
                       <picture>
                         <source media="(min-width: 1200px)"
                           type="image/webp" srcset="img/coach-2-desktop.webp 1x, img/coach-2-desktop@2x.webp 2x">
@@ -279,10 +281,10 @@
                       </picture>
                       <span class="coach-card__image-mask"></span>
                     </div>
-                    <div class="coach-card__text-wrapper">
+                    <div class="coach-card__content">
                       <p class="coach-card__name">Алексей Лавров</p>
                       <div class="coach-card__info">
-                        <p class="coach-card__discipline">CrossFit</p>
+                        <p class="coach-card__badge">CrossFit</p>
                         <ul class="coach-card__achievements-list">
                           <li class="coach-card__achievement-item">
                             Certified Level 3 Trainer
@@ -298,7 +300,7 @@
                     </div>
                   </li>
                   <li class="swiper-slide coaches__slide coach-card" tabindex="0" data-slide-swiper-coaches>
-                    <div class="coach-card__image-wrapper">
+                    <div class="coach-card__image">
                       <picture>
                         <source media="(min-width: 1200px)"
                           type="image/webp" srcset="img/coach-3-desktop.webp 1x, img/coach-3-desktop@2x.webp 2x">
@@ -311,10 +313,10 @@
                       </picture>
                       <span class="coach-card__image-mask"></span>
                     </div>
-                    <div class="coach-card__text-wrapper">
+                    <div class="coach-card__content">
                       <p class="coach-card__name">Александр Пашков</p>
                       <div class="coach-card__info">
-                        <p class="coach-card__discipline">CrossFit</p>
+                        <p class="coach-card__badge">CrossFit</p>
                         <ul class="coach-card__achievements-list">
                           <li class="coach-card__achievement-item">
                             Certified Level 3 Trainer
@@ -330,7 +332,7 @@
                     </div>
                   </li>
                   <li class="swiper-slide coaches__slide coach-card" tabindex="0" data-slide-swiper-coaches>
-                    <div class="coach-card__image-wrapper">
+                    <div class="coach-card__image">
                       <picture>
                         <source media="(min-width: 1200px)"
                           type="image/webp" srcset="img/coach-4-desktop.webp 1x, img/coach-4-desktop@2x.webp 2x">
@@ -343,10 +345,10 @@
                       </picture>
                       <span class="coach-card__image-mask"></span>
                     </div>
-                    <div class="coach-card__text-wrapper">
+                    <div class="coach-card__content">
                       <p class="coach-card__name">Мария Кетова</p>
                       <div class="coach-card__info">
-                        <p class="coach-card__discipline">CrossFit</p>
+                        <p class="coach-card__badge">CrossFit</p>
                         <ul class="coach-card__achievements-list">
                           <li class="coach-card__achievement-item">
                             Certified Level 3 Trainer
@@ -362,7 +364,7 @@
                     </div>
                   </li>
                   <li class="swiper-slide coaches__slide coach-card" tabindex="0" data-slide-swiper-coaches>
-                    <div class="coach-card__image-wrapper">
+                    <div class="coach-card__image">
                       <picture>
                         <source media="(min-width: 1200px)"
                           type="image/webp" srcset="img/coach-4-desktop.webp 1x, img/coach-4-desktop@2x.webp 2x">
@@ -375,10 +377,10 @@
                       </picture>
                       <span class="coach-card__image-mask"></span>
                     </div>
-                    <div class="coach-card__text-wrapper">
+                    <div class="coach-card__content">
                       <p class="coach-card__name">Яна Соколова</p>
                       <div class="coach-card__info">
-                        <p class="coach-card__discipline">CrossFit</p>
+                        <p class="coach-card__badge">CrossFit</p>
                         <ul class="coach-card__achievements-list">
                           <li class="coach-card__achievement-item">
                             Certified Level 3 Trainer
@@ -394,7 +396,7 @@
                     </div>
                   </li>
                   <li class="swiper-slide coaches__slide coach-card" tabindex="0" data-slide-swiper-coaches>
-                    <div class="coach-card__image-wrapper">
+                    <div class="coach-card__image">
                       <picture>
                         <source media="(min-width: 1200px)"
                           type="image/webp" srcset="img/coach-2-desktop.webp 1x, img/coach-2-desktop@2x.webp 2x">
@@ -407,10 +409,10 @@
                       </picture>
                       <span class="coach-card__image-mask"></span>
                     </div>
-                    <div class="coach-card__text-wrapper">
+                    <div class="coach-card__content">
                       <p class="coach-card__name">Алексей Павлов</p>
                       <div class="coach-card__info">
-                        <p class="coach-card__discipline">CrossFit</p>
+                        <p class="coach-card__badge">CrossFit</p>
                         <ul class="coach-card__achievements-list">
                           <li class="coach-card__achievement-item">
                             Certified Level 3 Trainer
@@ -426,7 +428,7 @@
                     </div>
                   </li>
                   <li class="swiper-slide coaches__slide coach-card" tabindex="0" data-slide-swiper-coaches>
-                    <div class="coach-card__image-wrapper">
+                    <div class="coach-card__image">
                       <picture>
                         <source media="(min-width: 1200px)"
                           type="image/webp" srcset="img/coach-3-desktop.webp 1x, img/coach-3-desktop@2x.webp 2x">
@@ -439,10 +441,10 @@
                       </picture>
                       <span class="coach-card__image-mask"></span>
                     </div>
-                    <div class="coach-card__text-wrapper">
+                    <div class="coach-card__content">
                       <p class="coach-card__name">Антон Белов</p>
                       <div class="coach-card__info">
-                        <p class="coach-card__discipline">CrossFit</p>
+                        <p class="coach-card__badge">CrossFit</p>
                         <ul class="coach-card__achievements-list">
                           <li class="coach-card__achievement-item">
                             Certified Level 3 Trainer
@@ -458,7 +460,7 @@
                     </div>
                   </li>
                   <li class="swiper-slide coaches__slide coach-card" tabindex="0" data-slide-swiper-coaches>
-                    <div class="coach-card__image-wrapper">
+                    <div class="coach-card__image">
                       <picture>
                         <source media="(min-width: 1200px)"
                           type="image/webp" srcset="img/coach-1-desktop.webp 1x, img/coach-1-desktop@2x.webp 2x">
@@ -471,10 +473,10 @@
                       </picture>
                       <span class="coach-card__image-mask"></span>
                     </div>
-                    <div class="coach-card__text-wrapper">
+                    <div class="coach-card__content">
                       <p class="coach-card__name">Татьяна Носова</p>
                       <div class="coach-card__info">
-                        <p class="coach-card__discipline">CrossFit</p>
+                        <p class="coach-card__badge">CrossFit</p>
                         <ul class="coach-card__achievements-list">
                           <li class="coach-card__achievement-item">
                             Certified Level 3 Trainer
@@ -562,7 +564,7 @@
                <picture>
                   <source  media="(max-width: 320px)" type="image/webp" srcset="img/stock-mobile.webp 1x, img/stock-mobile@2x.webp 2x">
                   <source  media="(max-width: 768px)" type="image/webp" srcset="img/stock-tablet.webp 1x, img/stock-tablet@2x.webp 2x">
-                  <source  media="(min-width: 1280px)" type="image/webp" srcset="img/stock-desktop.webp 1x, img/stock-desktop@2x.webp 2x">
+                  <source  media="(min-width: 1200px)" type="image/webp" srcset="img/stock-desktop.webp 1x, img/stock-desktop@2x.webp 2x">
                   <img class="stock__image" src="img/stock-desktop.webp" srcset="img/stock-desktop@2x.webp" width="280" height="462" alt="спортивная девушка.">
                 </picture>
               </div>
