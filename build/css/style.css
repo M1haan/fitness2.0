@@ -3418,13 +3418,13 @@ button,
   letter-spacing: 0;
   font-weight: 500;
 }
-.accordion__button p {
+.accordion__button span {
   margin: 0;
   text-align: start;
   line-height: 1.2em;
 }
 @media (max-width: 767px) {
-  .accordion__button p {
+  .accordion__button span {
     font-size: 18px;
     padding-right: 40px;
   }
