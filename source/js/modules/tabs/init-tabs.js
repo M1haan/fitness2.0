@@ -9,4 +9,3 @@ const initTabs = () => {
 };
 
 export {initTabs, tabs};
-

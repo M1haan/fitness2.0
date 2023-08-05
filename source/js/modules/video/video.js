@@ -10,14 +10,14 @@ const initVideo = () => {
   video.setAttribute('allowfullscreen', '');
   video.classList.add('about__iframe');
   videoContainer.append(video);
-};
 
-if (videoContainer && videoPicture && videoBtn) {
-  videoBtn.addEventListener('click', (event) => {
-    event.preventDefault();
-    videoPicture.style.display = 'none';
-    videoBtn.style.display = 'none';
-  });
-}
+  if (videoContainer && videoPicture && videoBtn) {
+    videoBtn.addEventListener('click', (event) => {
+      event.preventDefault();
+      videoPicture.style.display = 'none';
+      videoBtn.style.display = 'none';
+    });
+  }
+};
 
 export {initVideo};

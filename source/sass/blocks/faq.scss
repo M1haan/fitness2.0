@@ -1,89 +1,90 @@
 .faq {
   background-color: $color-background-secondary;
+}
 
-  .tabs {
-    display: grid;
-    grid-template-columns: 260px 1fr;
-    gap: 40px;
+.faq__tabs {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 40px;
 
-    @include vp-1199 {
-      grid-template-columns: 1fr;
-      gap: 39px;
-    }
-
-    @include vp-767 {
-      gap: 29px;
-    }
-  }
-
-  .tabs__element {
-    display: grid;
+  @include vp-1199 {
     grid-template-columns: 1fr;
-    padding: 0;
+    gap: 39px;
   }
 
-  .tabs__controls {
-    margin-bottom: 0;
-    flex-direction: column;
-    display: flex;
-    gap: 10px;
-    height: fit-content;
+  @include vp-767 {
+    gap: 29px;
+  }
+}
 
-    @include vp-1199 {
-      flex-direction: row;
-      max-width: 800px;
-      margin: 0 auto;
-    }
+.faq__tabs-element {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  padding: 0;
+}
 
-    @include vp-767 {
-      display: grid;
-      grid-template-columns: 141px 141px;
-      gap: 8px;
-      justify-content: center;
-    }
+.faq__tabs-controls {
+  margin-bottom: 0;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+  height: fit-content;
+
+  @include vp-1199 {
+    flex-direction: row;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
-  .tabs__control {
-    padding: 20px 56px;
-    margin: 0;
-    width: unset;
-    border: 1px solid rgba(16, 38, 84, 0.2);
-    text-transform: unset;
-    font-size: 18px;
-    color: #102654;
-    font-weight: 500;
+  @include vp-767 {
+    display: grid;
+    grid-template-columns: 141px 141px;
+    gap: 8px;
+    justify-content: center;
+  }
+}
+
+.faq__control {
+  padding: 20px 56px;
+  margin: 0;
+  width: unset;
+  border: 1px solid rgba(16, 38, 84, 0.2);
+  text-transform: unset;
+  font-size: 18px;
+  color: #102654;
+  font-weight: 500;
 
 
-    @include vp-1199 {
-      max-width: 162px;
-      padding: 20px 34px;
-    }
-
-    @include vp-767 {
-      font-size: 16px;
-      padding: 14px 0 16px 0;
-    }
+  @include vp-1199 {
+    max-width: 162px;
+    padding: 20px 34px;
   }
 
-  .tabs__control:hover,
-  .tabs__control:focus-within {
-    border-color: $color-secondary;
+  @include vp-767 {
+    font-size: 16px;
+    padding: 14px 0 16px 0;
   }
+}
 
-  .tabs__control:active {
-    background: linear-gradient(97deg, #ed0233 18%, #003eb7 95%);
-    color: $color-default-white;
-  }
+.faq__control:hover,
+.faq__control:focus-within {
+  border-color: $color-secondary;
+}
 
-  .tabs__control:disabled {
-    border-color: #c8c9cc;
-    color: #c8c9cc;
-  }
+.faq__control:active {
+  background: linear-gradient(97deg, #ed0233 18%, #003eb7 95%);
+  color: $color-default-white;
+}
 
-  .tabs__control.is-active {
-    background: linear-gradient(97deg, #ed0233 18%, #003eb7 95%);
-    color: $color-default-white;
-  }
+.faq__control:disabled {
+  border-color: #c8c9cc;
+  color: #c8c9cc;
+}
+
+.faq__control.is-active {
+  background: linear-gradient(97deg, #ed0233 18%, #003eb7 95%);
+  color: $color-default-white;
 }
 
 .faq__container {
