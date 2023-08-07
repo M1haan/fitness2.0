@@ -1,10 +1,8 @@
-import Swiper from '../../vendor/swiper';
-
 function initCoachesSwiper() {
   let coachesSwiper = new Swiper('.swiper-coaches', {
     navigation: {
-      nextEl: '.coaches__button--next',
-      prevEl: '.coaches__button--prev',
+      nextEl: '.button-slider--next',
+      prevEl: '.button-slider--prev',
     },
 
     direction: 'horizontal',
@@ -47,4 +45,3 @@ function initReviewsSwiper() {
 }
 
 export {initCoachesSwiper, initReviewsSwiper};
-

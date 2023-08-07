@@ -106,7 +106,10 @@
 
 .about__image {
   display: block;
-  width: 100%;
+
+  img {
+    width: 100%;
+  }
 }
 
 .about__video-container {
