@@ -1,5 +1,3 @@
-import Swiper from '../../vendor/swiper';
-
 function initCoachesSwiper() {
   let coachesSwiper = new Swiper('.swiper-coaches', {
     navigation: {
