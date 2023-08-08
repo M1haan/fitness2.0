@@ -6,6 +6,10 @@
   border-radius: 50%;
   color: $color-primary;
   cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translate(0, -50%);
 
   @include vp-767 {
     width: 30px;
@@ -13,11 +17,7 @@
   }
 
   &--prev {
-    position: absolute;
-    z-index: 2;
     left: -18px;
-    top: 50%;
-    transform: translate(0, -50%);
 
     @include vp-1199 {
       left: 0;
@@ -25,11 +25,7 @@
   }
 
   &--next {
-    position: absolute;
-    z-index: 2;
     right: -18px;
-    top: 50%;
-    transform: translate(0, -50%);
 
     @include vp-1199 {
       right: 0;

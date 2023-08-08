@@ -1475,6 +1475,12 @@ button,
   border-radius: 50%;
   color: #102654;
   cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
 }
 @media (max-width: 767px) {
   .button-slider {
@@ -1483,13 +1489,7 @@ button,
   }
 }
 .button-slider--prev {
-  position: absolute;
-  z-index: 2;
   left: -18px;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-      -ms-transform: translate(0, -50%);
-          transform: translate(0, -50%);
 }
 @media (max-width: 1199px) {
   .button-slider--prev {
@@ -1497,13 +1497,7 @@ button,
   }
 }
 .button-slider--next {
-  position: absolute;
-  z-index: 2;
   right: -18px;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-      -ms-transform: translate(0, -50%);
-          transform: translate(0, -50%);
 }
 @media (max-width: 1199px) {
   .button-slider--next {
@@ -2448,6 +2442,8 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2756,6 +2752,8 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

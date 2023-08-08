@@ -5,6 +5,7 @@
 .tabs__element {
   @include reset-list;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
   width: 100%;
