@@ -41,6 +41,7 @@
 .season-tickets__controls {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   column-gap: 47px;
   margin: 0 auto 38px;
