@@ -10,7 +10,7 @@
   }
 
   @include vp-767 {
-    padding-top: 70px;
+    padding-top: 65px;
     padding-bottom: 70px;
   }
 }
@@ -32,7 +32,7 @@
 
   @include vp-767 {
     padding: 0;
-    gap: 40px;
+    gap: 35px;
   }
 }
 
@@ -54,6 +54,7 @@
   @include vp-767 {
     font-size: 32px;
     letter-spacing: 0.96px;
+    margin-bottom: 3px;
   }
 }
 
@@ -64,8 +65,7 @@
   @include vp-1199 {
     width: 100%;
     text-align: center;
-    padding-left: 88px;
-    padding-right: 88px;
+    padding: 0 88px;
   }
 
   @include vp-767 {
@@ -86,7 +86,11 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
-    margin-bottom: 35px;
+    margin-bottom: 33px;
+  }
+
+  @include vp-767 {
+    margin-bottom: 25px;
   }
 }
 
@@ -176,15 +180,17 @@
   z-index: 1;
 
   @include vp-1199 {
-    width: 73px;
-    height: 73px;
-    top: calc(50% - 34px);
-    left: calc(50% - 38px);
+    width: 52px;
+    height: 52px;
+    top: calc(50% - 28px);
+    left: calc(50% - 28px);
   }
 
   @include vp-767 {
-    top: calc(50% - 36px);
-    left: calc(50% - 36px);
+    width: 52px;
+    height: 52px;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
   }
 
   @include hover-focus {
@@ -192,10 +198,6 @@
     color: $color-primary;
     outline-color: $color-primary;
   }
-
-  /* @include active {
-    scale: 0.8;
-  } */
 
   &:active {
     scale: 0.8;

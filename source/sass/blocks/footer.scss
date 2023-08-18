@@ -6,46 +6,38 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 41px;
-  padding-bottom: 40px;
-  padding-right: 41px;
+  padding: 42px 103px 40px;
 
   @include vp-1199 {
-    padding-top: 45px;
-    padding-bottom: 40px;
-    padding-right: 39px;
+    padding: 45px;
   }
 
   @include vp-767 {
-    padding-top: 45px;
-    padding-bottom: 52px;
+    padding: 30px 15px 52px;
+
     flex-direction: column;
     align-items: flex-start;
   }
 }
 
 .footer__logo {
-  color: $color-default-white;
-  font-family: $ff-primary;
-  font-size: 26px;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 0.52px;
-  text-transform: uppercase;
   cursor: pointer;
 
-  @include vp-1199 {
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 0.48px;
+  img {
+    @include vp-1199 {
+      width: 82px;
+      height: 18px;
+    }
+
+    @include vp-767 {
+      width: 68px;
+      height: 15px;
+    }
   }
 
   @include vp-767 {
     position: relative;
     top: 25px;
-    font-size: 20px;
-    letter-spacing: 0.4px;
-    font-weight: 600;
   }
 
   @include hover-focus {
@@ -69,20 +61,20 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 750px;
-  column-gap: 40px;
+  column-gap: 20px;
   row-gap: 15px;
   margin: 0;
   padding: 0;
 
   @include vp-1199 {
-    column-gap: 30px;
+    column-gap: 10px;
     max-width: 450px;
   }
 
   @include vp-767 {
     display: block;
     column-count: 2;
-    gap: 76px;
+    gap: 45px;
     margin-bottom: 17px;
   }
 }
@@ -104,21 +96,29 @@
 
 .footer__link {
   font-size: 14px;
-  padding: 5px 0;
+  padding: 5px 10px;
   font-family: $ff-secondary;
   color: $color-default-white;
+  position: relative;
 
   @include vp-767 {
     font-size: 16px;
   }
 
   &:hover {
-    text-decoration: underline;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 10px;
+      right: 10px;
+      height: 1px;
+      background-color: $color-default-white;
+    }
   }
 
   &:focus {
     outline: 1px solid $color-default-white;
-    outline-offset: 3px;
   }
 
   &:active {

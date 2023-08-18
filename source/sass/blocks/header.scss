@@ -3,13 +3,15 @@
   background-image: conic-gradient(from 150.87deg at 16.03% 39.06%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
   color: $color-default-white;
   font-family: $ff-primary;
+  max-height: 658px;
 }
 
 .header__container {
   padding: 30px 103px 51px;
+  max-width: 1370px;
 
   @include vp-1199 {
-    padding: 35px 45px 80px;
+    padding: 35px 45px 82px;
   }
 
   @include vp-767 {
@@ -23,30 +25,52 @@
 }
 
 .header__logo {
-  color: $color-default-white;
-  font-size: 36px;
-  font-weight: 600;
-  letter-spacing: 0.72px;
-  line-height: normal;
-  text-transform: uppercase;
+  img {
+    @include vp-1199 {
+      width: 82px;
+      height: 17px;
+    }
 
-  @include vp-1199 {
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 0.48px;
+    @include vp-767 {
+      width: 69px;
+      height: 24px;
+    }
   }
 
-  @include vp-767 {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 0.4px;
+  @include hover-focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
   }
 }
 
 .header__phone {
   color: $color-default-white;
   font-size: 26px;
+  font-weight: 600;
   letter-spacing: 0.78px;
+
+  @include vp-1199 {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.48px;
+  }
+
+  @include vp-767 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+  }
+
+  @include hover-focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .header__description {
@@ -60,16 +84,21 @@
   height: min-content;
   align-self: center;
   grid-area: desc;
+  padding-top: 65px;
+  margin-right: -19px;
+
+  @include vp-1199 {
+    padding-top: 45px;
+    margin: 0;
+  }
 
   @include vp-767 {
-    top: 65%;
-    left: 0;
+    padding-top: 35px;
     width: 113px;
   }
 }
 
 .header__content {
-  margin-top: -23px;
   display: grid;
   grid-template-columns: 113px 267px 1fr;
   grid-template-rows: 1fr min-content min-content;
@@ -80,9 +109,9 @@
   justify-items: start;
 
   @include vp-1199 {
-    margin-top: 18px;
+    margin-top: 23px;
     grid-template-columns: 113px 187px 1fr;
-    gap: 12px 24px;
+    gap: 0 26px;
     min-height: auto;
   }
 
@@ -93,7 +122,7 @@
       "link link";
     grid-template-columns: 113px 1fr;
     column-gap: 12px;
-    padding-top: 0;
+    padding-top: 50px;
     padding-bottom: 0;
   }
 }
@@ -109,15 +138,15 @@
   grid-area: title;
 
   @include vp-1199 {
-    margin-top: 6px;
-    margin-left: -2px;
+    margin: 6px 0 60px;
     font-size: 72px;
+    letter-spacing: 3.6px;
     text-transform: unset;
   }
 
   @include vp-767 {
     letter-spacing: 3.6px;
-    margin-bottom: 14px;
+    margin-bottom: 25px;
     margin-left: -22px;
   }
 }
@@ -125,16 +154,16 @@
 .header__badge {
   grid-area: badge;
   align-self: end;
-  margin: 0 0 0 130px;
+  margin: 110px 0 0 130px;
   font-size: 48px;
   line-height: 58px;
   letter-spacing: 1.44px;
-  text-align: right;
 
   @include vp-1199 {
     padding-right: 8px;
     font-size: 31px;
     line-height: 37px;
+    margin: 0 0 0 125px;
   }
 
   @include vp-767 {
@@ -191,16 +220,17 @@
 
   img {
     background-color: $color-primary;
+    width: 500px;
+    height: 556px;
 
     @include vp-1199 {
       width: 324px;
-      min-height: 390px;
+      height: 390px;
     }
+  }
 
-    @include vp-1199 {
-      width: 324px;
-      min-height: 390px;
-    }
+  @include vp-1199 {
+    margin: 0 0 0 5px;
   }
 
   @include vp-767 {
