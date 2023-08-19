@@ -9,11 +9,11 @@
 
   @include vp-1199 {
     grid-template-columns: 1fr;
-    gap: 39px;
+    gap: 40px;
   }
 
   @include vp-767 {
-    gap: 29px;
+    gap: 28px;
   }
 }
 
@@ -25,6 +25,7 @@
 }
 
 .faq__tabs-controls {
+  font-family: $ff-secondary;
   margin-bottom: 0;
   flex-direction: column;
   display: flex;
@@ -46,7 +47,7 @@
 }
 
 .faq__control {
-  padding: 20px 56px;
+  padding: 17px 56px;
   margin: 0;
   width: unset;
   border: 1px solid rgba(16, 38, 84, 0.2);
@@ -54,16 +55,18 @@
   font-size: 18px;
   color: #102654;
   font-weight: 500;
+  line-height: 100%;
 
 
   @include vp-1199 {
-    max-width: 162px;
-    padding: 20px 34px;
+    width: 162px;
+    padding: 17px 34px;
   }
 
   @include vp-767 {
+    width: 141px;
     font-size: 16px;
-    padding: 14px 0 16px 0;
+    padding: 11px 0 16px 0;
   }
 }
 
@@ -88,23 +91,20 @@
 }
 
 .faq__container {
-  padding-top: 126px;
-  padding-bottom: 122px;
+  padding: 120px 103px 80px;
 
   @include vp-1199 {
-    padding-top: 105px;
-    padding-bottom: 98px;
+    padding: 100px 45px 60px;
   }
 
   @include vp-767 {
-    padding-top: 74px;
-    padding-bottom: 68px;
+    padding: 71px 15px 68px;
   }
 }
 
 .faq__title {
   margin: 0;
-  margin-bottom: 44px;
+  margin-bottom: 40px;
   color: #102654;
   font-family: $ff-primary;
   font-size: 54px;
@@ -115,9 +115,14 @@
 
   @include vp-1199 {
     text-align: center;
+    font-size: 42px;
+    letter-spacing: 1.26px;
+    margin-bottom: 40px;
   }
 
   @include vp-767 {
-    margin-bottom: 33px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    letter-spacing: 0.96px;
   }
 }

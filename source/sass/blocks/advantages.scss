@@ -4,20 +4,18 @@
 }
 
 .advantages__container {
-  max-width: 1250px;
+  max-width: 1070px;
   padding-top: 108px;
-  padding-bottom: 130px;
+  padding-bottom: 125px;
   margin: 0 auto;
 
   @include vp-1199 {
-    padding-left: 45px;
-    padding-right: 55px;
+    padding: 89px 45px 87px;
   }
 
   @include vp-767 {
     width: 320px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 62px 0 40px;
     margin: 0 auto;
   }
 }
@@ -36,6 +34,7 @@
     font-size: 42px;
     font-weight: 600;
     letter-spacing: 1.26px;
+    margin-bottom: 28px;
   }
 
   @include vp-767 {
@@ -49,18 +48,19 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: dense;
-  column-gap: 60px;
-  row-gap: 83px;
+  row-gap: 127px;
   justify-items: center;
 
   @include reset-list;
 
   @include vp-1199 {
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
   }
 
   @include vp-767 {
     grid-template-columns: 1fr;
+    gap: 18px;
   }
 }
 
@@ -75,7 +75,7 @@
   &--parking::after {
     content: "";
     position: absolute;
-    bottom: -55px;
+    bottom: -72%;
     left: 0;
     right: 0;
     border-bottom: 2px solid rgba(209, 10, 66, 0.2);
@@ -85,13 +85,22 @@
     }
   }
 
+  &--square,
+  &--parking {
+    margin-top: -28px;
+
+    @include vp-1199 {
+      margin-top: 0;
+    }
+  }
+
   @include vp-767 {
     width: fit-content;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-left: 68px;
-    padding-right: 68px;
+    padding-left: 54px;
+    padding-right: 55px;
   }
 }
 
@@ -100,6 +109,14 @@
   font-weight: 700;
   line-height: 150%;
   margin: 22px 0 5px;
+
+  @include vp-1199 {
+    margin-top: 16px;
+  }
+
+  @include vp-767 {
+    margin-top: 12px;
+  }
 }
 
 .advantages__column {
@@ -122,6 +139,10 @@
   background-clip: text;
   margin: 0;
   -webkit-text-fill-color: transparent;
+
+  @include vp-1199 {
+    font-size: 58px;
+  }
 }
 
 .advantages__key {
@@ -135,7 +156,7 @@
 .advantages__item-banner {
   grid-row: span 2;
   width: 240px;
-  padding: 65px 34px;
+  padding: 80px 34px 40px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -147,27 +168,34 @@
     width: 442px;
     grid-row: 2/3;
     grid-column: 1/-1;
-    margin-top: 11px;
-    padding: 45px 135px;
+    margin-top: 5px;
+    padding: 40px 135px;
   }
 
   @include vp-767 {
     width: 320px;
     grid-row: 3/4;
-    padding: 50px 74px;
+    padding: 47px 74px 45px;
     margin: 0;
+    margin-top: -6px;
   }
 }
 
 .advantages__subtitle-banner {
   font-family: $ff-secondary;
   font-size: 26px;
-  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+
+  @include vp-1199 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
 
   @include vp-767 {
-    margin-bottom: 25px;
+    margin-bottom: 6px;
   }
 }
 
@@ -181,6 +209,10 @@
 .advantages__value-banner {
   font-size: 74px;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin-bottom: 27px;
   color: $color-default-white;
+
+  @include vp-1199 {
+    margin-top: 11px;
+  }
 }

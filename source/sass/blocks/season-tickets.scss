@@ -10,7 +10,7 @@
   }
 
   @include vp-767 {
-    padding-top: 63px;
+    padding-top: 67px;
     padding-bottom: 30px;
   }
 }
@@ -35,10 +35,12 @@
   @include vp-767 {
     font-size: 32px;
     line-height: 38px;
+    margin-bottom: 18px;
   }
 }
 
 .season-tickets__controls {
+  font-family: $ff-secondary;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -53,7 +55,7 @@
   }
 
   @include vp-767 {
-    column-gap: 34px;
+    column-gap: 45px;
     margin: 0 auto 34px;
   }
 
@@ -136,7 +138,7 @@
 
 .season-tickets__tab:not(.is-active) {
   @include hover-focus {
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid #d10a42;
     color: $color-primary;
     opacity: 1;
   }
